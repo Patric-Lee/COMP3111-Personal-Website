@@ -33,14 +33,13 @@
         <div class="collapse navbar-collapse" id="navbar-collapse-2">
           <ul class="nav navbar-nav">
             <!-- <li><a href="#">Home</a></li> -->
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Biography</a></li>
-            <li><a href="#">Gallery</a></li>
-            <!-- <li><a href="#">...</a></li> -->
-
+            <li><a href="#Profile">Profile</a></li>
+            <li><a href="#Biography">Biography</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#MyVideos">My Videos!</a></li>
           </ul>
 	 <ul class="nav navbar-nav navbar-right">
-		<li><a href="#">Visit Patric Lee's Blog</a></li>
+		<li><a href="#Blog">Visit Patric Lee's Blog</a></li>
 	</ul>
         </div>
       </div>
@@ -62,20 +61,25 @@
 				</div>
 				<div class="row text-center">
 					<div class="col-sm-4">
-						<img src="img/close-envelope.png" data-toggle="Tooltip" data-placement="bottom" title="plial@">
+						<div class="row">
+						<img src="img/close-envelope.png" data-toggle="Tooltip" data-placement="bottom" title="plial@"></div>
+						<div class="row">
 						<a href="mailto:plial@connect.ust.hk">plial@connect.ust.hk</a>
-					</div>
+					</div></div>
 					<div class="col-sm-4">
-						<img src="img/GitHub-Mark/PNG/GitHub-Mark-32px.png">
-						<a href="#">Patric Lee's Github</a>
-					</div>
+						<div class="row">
+						<img src="img/GitHub-Mark/PNG/GitHub-Mark-32px.png"></div>
+						<div class="row">
+						<a href="http://github.com/Patric-Lee">Patric Lee's Github</a>
+					</div></div>
 					<div class="col-sm-4">
 
-				
+						<div class="row">
 						<img src="img/linkedin-logo-2.png">
-
-						<a href="#">Patric Lee's LinkIn</a>
-					
+						</div>
+						<div class="row">
+						<a href="https://www.linkedin.com/in/Patric-Lee">Patric Lee's LinkedIn</a>
+					</div>
 				</div>
 			</div>
 			<div class="col-sm-1"></div>
@@ -88,10 +92,6 @@
     <div class="container">
 
       <div class="row">
-        
-
-      </div>
-      <div class="row">
         <div class="col-sm-12 text-center">
           <h2>Biography</h2>
 	</div>
@@ -99,7 +99,7 @@
           <p>
             Patric Lee's Chinese name is Li Pengcheng. In Chinese, Peng, transforming from a fish called Kun which lived in the North Sea, is an imaginary bird with strong wings. "Pengcheng" means literally that the powerful bird begins a flight to the sky, in the meanwhile as a metaphor that someone ambitious is ready to achieve his or her goal.</p>
           <p>
-            In 2014, <a>P</a>atric got a fairly high score in Mainland China's College Entrance Examination and chose to study in Peking University. After hesitating for one year, he finally decided to major in computer science, which, he believed, is an intellectually insteresting, financially promising and technically practically subject. Especially Patric wishes to do some researches on natural language processing and machine learning.
+            In 2014, Patric got a fairly high score in Mainland China's College Entrance Examination and chose to study in Peking University. After hesitating for one year, he finally decided to major in computer science, which, he believed, is an intellectually insteresting, financially promising and technically practically subject. Especially Patric wishes to do some researches on natural language processing and machine learning.
           </p>
           <p>
           In August 2016, he headed for Hong Kong University of Science and Technology as an exchange student for one semester.
@@ -135,14 +135,17 @@
 
 	</div>
 	<div class="row" style="background:url(img/Camera/MyWriting.jpg);">
+	
+
+	<!-- Codes of carousel from Bootstrap.com -->
 
 		<div id="carousel-example-generic" class="carousel slide col-sm-3 metro" data-ride="carousel">
-  <!-- Indicators -->
+  <!-- Indicators 
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+  </ol> -->
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
@@ -163,7 +166,7 @@
 	</div>
   </div>
 
-  <!-- Controls -->
+  <!-- Controls
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -171,15 +174,14 @@
   <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
-  </a>
+  </a> -->
 </div>
 
 
 		<div class="col-sm-9 metro caption text-center">
-			<div class="row"><h1>Gallery</h1></div>
-			<div class="row"><a href="#"><img src="img/ins.png"></a>		</div>
-			<div class="row"><a href="#"><h3>Follow my Instagram!<h3></a>
-</div>
+			<div class="col-sm-12"><h1>Gallery</h1></div>
+			<div class="col-sm-12"><a href="https://www.instagram.com/patric__lee/"><img src="img/ins.png"></a>		</div>
+			<div class="col-sm-12"><h3>Follow my Instagram</h3></div>
 		</div>
 
 	</div>
@@ -193,8 +195,83 @@
     <section id="Blog">
 
 	<div class="container">
+		<div class="row text-center">
+			<h2>Skills? Interests?</h2>
+
+
+
+		</div>
+		<div class="row">
+			<div class="col-sm-4 text-center">
+				<h4>Programming Languages</h4>
+			</div>
+			<div class="col-sm-8">
+				<div class="row">
+				<div class="col-sm-2 text-center">
+				<h4><span class="label label-success">C & C++</span>
+				</h4>
+				</div>
+ <div class="col-sm-2 text-center">
+                                <h4><span class="label label-success">Java</span>
+                                </h4>
+                                </div> <div class="col-sm-2 text-center">
+                                <h4><span class="label label-success">Assembly</span>
+                                </h4>
+                                </div> <div class="col-sm-2 text-center">
+                                <h4><span class="label label-primary">Python</span>
+                                </h4>
+                                </div> <div class="col-sm-2 text-center">
+                                <h4><span class="label label-danger">HTML</span>
+                                </h4>
+                                </div> <div class="col-sm-2 text-center">
+                                <h4><span class="label label-danger">Matlab</span>
+                                </h4>
+                                </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4 text-center">
+				<h4>My Favorite Books</h4>
+			</div>
+			<div class="col-sm-8">
+				<div class="row">
+				<div class="col-sm-12 text-center">
+				<h4><span class="label label-success">1984 by George Orwell</span>
+				</h4>
+				</div>
+ <div class="col-sm-12 text-center">
+                                <h4><span class="label label-success">A Song of Ice and Fire by George Martin</span>
+                                </h4>
+                                </div> <div class="col-sm-12 text-center">
+                                <h4><span class="label label-success">The Story of the Stone by Cao Xueqin</span>
+                                </h4>
+                                </div> 
+
+			<!-- 	<div class="col-sm-2 text-center">
+                                <h4><span class="label label-primary">Python</span>
+                                </h4>
+                                </div> <div class="col-sm-2 text-center">
+                                <h4><span class="label label-danger">HTML</span>
+                                </h4>
+                                </div> <div class="col-sm-2 text-center">
+                                <h4><span class="label label-danger">Matlab</span>
+                                </h4> -->
+                                </div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
 		<div class="text-center">
-			<h2>Visit Patric Lee's Blog</h2>
+			<a href="http://blog.csdn.net/sinat_32575459"><h3>Visit Patric Lee's Blog</h3></a>
 
 
 		</div>
@@ -205,12 +282,43 @@
 
     </section>
 
+
+
+	<section id="MyVideos">
+		<div class="container-fluid">
+			
+			<div class="row">
+			<div class="embed-responsive embed-responsive-16by9">
+			 <iframe src="https://www.youtube.com/embed/qnauJQy5qFI"  allowfullscreen></iframe>
+
+
+			</div>
+
+
+
+
+
+		</div>
+	</section>
+
+
 	<section id="footer">
 	<footer>
 		<div class="container">
-                                <div>Icons made by <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			<div>
 
-			<div>Icons made by <a href="http://www.flaticon.com/authors/yannick" title="Yannick">Yannick</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+			Built by Patric Lee. All rights reserved.
+
+
+
+
+
+
+			</div>
+                                <div>LinkedIn Icons made by <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+			<div>Closed Envelope Icons made by <a href="http://www.flaticon.com/authors/yannick" title="Yannick">Yannick</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
 		</div>
 

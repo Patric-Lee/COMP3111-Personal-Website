@@ -15,9 +15,15 @@ section {
 }
 
 .caption h3 {
-	padding-bottom:20px;
+	padding-bottom:0px;
 	color:#eaa962;
+
 }
+
+h2 {
+	font-family:"BebasNeueRegular", Arial, sans-serif;
+}
+
 
 .profile img {
 	float: left;
@@ -35,6 +41,27 @@ section {
 	margin:0;
 }
 
+.photos img {
+	-webkit-transition:all 7s;
+	transition:all 7s;
+}
+
+
+/* Inspired by JDC Design Studio Website  */
+.photos:hover img {
+	transform:scale(1.9);
+	-ms-transform:scale(1.9);
+	-moz-transform:scale(1.9);
+	-webkit-transform:scale(1.9);
+	-o-transform:scale(1.9);
+}
+
+
+
 #Gallery {
+	padding:0;
+}
+
+#MyVideos {
 	padding:0;
 }
